@@ -1,105 +1,77 @@
-from datetime import date
+# Vinay S Adiwal ⚡
+## Electronics & Communication Engineering 🚀
 
-tasks = []
+### 🔨 Tech Stack
 
+### Programming
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
-def add_task():
-    subject = input("Enter subject: ")
-    task = input("Enter study task: ")
+### VLSI & Digital Design
+![Verilog](https://img.shields.io/badge/Verilog-8B0000?style=for-the-badge)
+![Digital Electronics](https://img.shields.io/badge/Digital%20Electronics-6A1B9A?style=for-the-badge)
+![FPGA](https://img.shields.io/badge/FPGA-FF6F00?style=for-the-badge)
 
-    tasks.append({
-        "subject": subject,
-        "task": task,
-        "completed": False
-    })
+### Embedded & IoT
+![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
+![ESP32](https://img.shields.io/badge/ESP32-3C3C3C?style=for-the-badge)
+![IoT](https://img.shields.io/badge/IoT-2196F3?style=for-the-badge)
 
-    print("✅ Task added successfully!")
+### Electronics
+![Microcontrollers](https://img.shields.io/badge/Microcontrollers-1976D2?style=for-the-badge)
+![Communication](https://img.shields.io/badge/Communication%20Systems-7B1FA2?style=for-the-badge)
+![PCB Design](https://img.shields.io/badge/PCB%20Design-388E3C?style=for-the-badge)
 
+### Tools
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
-def show_tasks():
-    if not tasks:
-        print("\n📚 No study tasks yet.")
-        return
+---
 
-    print("\n--- YOUR STUDY TASKS ---")
+### 🎯 Areas of Interest
 
-    for i, task in enumerate(tasks, 1):
-        status = "✅ Done" if task["completed"] else "⏳ Pending"
+⚡ VLSI Design  
+🔌 Digital Electronics  
+💻 Embedded Systems  
+🌐 IoT  
+📡 Communication Systems  
+🤖 AI + Electronics  
 
-        print(
-            f"{i}. [{status}] "
-            f"{task['subject']} - {task['task']}"
-        )
+---
 
+### 🚀 Currently Learning
 
-def complete_task():
-    show_tasks()
+- C Programming
+- Python
+- Digital System Design
+- Verilog HDL
+- VLSI Fundamentals
+- Embedded Systems
+- IoT Projects
 
-    if not tasks:
-        return
+---
 
-    try:
-        number = int(input("\nEnter task number to complete: "))
+### 📂 Projects
 
-        if 1 <= number <= len(tasks):
-            tasks[number - 1]["completed"] = True
-            print("🎉 Task completed!")
-        else:
-            print("❌ Invalid task number.")
+🔹 IoT Smart Temperature & Humidity Monitor  
+🔹 Smart Energy Monitoring System  
+🔹 Digital Logic Design Projects  
+🔹 Verilog HDL Projects  
+🔹 AI + Electronics Projects  
 
-    except ValueError:
-        print("❌ Please enter a number.")
+---
 
+### 👨‍💻 About Me
 
-def show_progress():
-    if not tasks:
-        print("\n📊 No tasks available.")
-        return
+🎓 B.E Student — ECE  
+⚡ Interested in VLSI & Semiconductor Technology  
+💡 Building Electronics + AI + IoT Projects  
+📚 Learning and improving every day
 
-    completed = sum(task["completed"] for task in tasks)
-    total = len(tasks)
+---
 
-    progress = (completed / total) * 100
+### 📫 Connect With Me
 
-    print("\n📊 STUDY PROGRESS")
-    print(f"Completed: {completed}/{total}")
-    print(f"Progress: {progress:.1f}%")
-
-
-def main():
-    print("================================")
-    print("       PYTHON STUDY MATE")
-    print("================================")
-    print(f"Today: {date.today()}")
-
-    while True:
-        print("\n1. Add Study Task")
-        print("2. View Tasks")
-        print("3. Complete Task")
-        print("4. Show Progress")
-        print("5. Exit")
-
-        choice = input("\nChoose an option: ")
-
-        if choice == "1":
-            add_task()
-
-        elif choice == "2":
-            show_tasks()
-
-        elif choice == "3":
-            complete_task()
-
-        elif choice == "4":
-            show_progress()
-
-        elif choice == "5":
-            print("\n👋 Keep learning Python!")
-            break
-
-        else:
-            print("❌ Invalid choice.")
-
-
-if __name__ == "__main__":
-    main()
+GitHub: **Vinay S Adiwal**  
+LinkedIn: **Vinay S Adiwal**
