@@ -1,5 +1,5 @@
 # 💫 About Me:
-i am ECE student<br>currently undergraduate B.E<br>VLSI and Embeded <br>circuit designs and ai tools
+I am ECE student<br>currently undergraduate B.E<br>VLSI and Embeded <br>circuit designs and ai tools
 
 
 # 💻 Tech Stack:
